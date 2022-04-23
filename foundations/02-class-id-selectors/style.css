@@ -3,9 +3,9 @@
 * **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px 
 * **The fourth element**: a light green background, a font size of 24px, and bold */
 
-p {
-    background-color: rgb(242, 187, 187);
-    font-family: Verdana, 'DejaVu Sans', 'sans-serif';
+.odd {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #second {
