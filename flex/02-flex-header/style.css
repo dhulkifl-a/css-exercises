@@ -19,6 +19,7 @@
   font-weight: 900;
   color: tomato;
   background: white;
+  margin: 8px auto;
   padding: 4px 32px;
 }
 
@@ -28,8 +29,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
-  padding: 0 0;
+  gap: 8px;
+  padding: 0 8px;
   margin: 0 auto;
 }
 
