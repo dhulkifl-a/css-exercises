@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*text-align: centre */
 }
 
 img {
@@ -23,6 +24,7 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
+  /*margin-bottom: 32px;*/
 }
 
 .items {
@@ -31,6 +33,11 @@ img {
   align-items: center;
   gap: 52px;
   margin: 0 52px;
+  /*
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  */
 }
 
 .berry,
@@ -40,6 +47,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+/*
+max-width: 200px;
+*/
+
 }
 
 .text {
