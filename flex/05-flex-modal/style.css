@@ -74,18 +74,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  flex-shrink: 0;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-.icon,
-.close-button,
-.header,
-.continue,
-.cancel {
   flex-shrink: 0;
 }
