@@ -35,6 +35,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
 }
 
 .icon {
@@ -78,4 +80,12 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.icon,
+.close-button,
+.header,
+.continue,
+.cancel {
+  flex-shrink: 0;
 }
