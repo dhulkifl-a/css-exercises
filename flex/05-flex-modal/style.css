@@ -34,6 +34,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 8px;
   padding: 8px;
@@ -86,6 +87,3 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.click {
-  display: flex;
-}
