@@ -80,11 +80,15 @@ a {
   padding: 32px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36px;
 }
 
 .card {
+  box-sizing: border-box;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 330;
+  width: 330px;
+  padding: 16px;
 }
